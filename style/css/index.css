@@ -1,0 +1,131 @@
+/*400*/
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../font/Gilroy-Regular.ttf"); }
+/*500*/
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../font/Gilroy-Medium.ttf"); }
+/*600*/
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../font/Gilroy-SemiBold.ttf"); }
+/*700*/
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../font/Gilroy-Bold.ttf"); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*HEADER*/
+.header {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.logo__img {
+  margin-right: 14px; }
+
+.logo__p {
+  font-family: Gilroy;
+  font-size: 28px;
+  font-weight: 700; }
+
+.logo__span {
+  color: #F25822; }
+
+.menu-bar {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 600; }
+
+.menu-bar__a {
+  margin-left: 35px;
+  text-decoration: none;
+  color: #000; }
+  .menu-bar__a:hover {
+    color: #F25822; }
+
+/*CONTENT*/
+.content {
+  width: 1170px;
+  margin: 89px auto 0;
+  display: flex;
+  justify-content: space-between; }
+
+.content-info h1 {
+  font-family: Gilroy;
+  font-size: 60px;
+  font-weight: 700; }
+.content-info p {
+  margin-top: 17px;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 500;
+  color: #888; }
+
+.content-info-btn {
+  margin-top: 37px;
+  display: flex;
+  align-items: center; }
+
+.content-info-btn__start {
+  width: 140px;
+  height: 50px;
+  margin-right: 72px;
+  border: none;
+  border-radius: 50px;
+  background: #F25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFF;
+  transition: transform 1s;
+  transform: scale(1); }
+  .content-info-btn__start:hover {
+    transform: scale(1.2);
+    transition: transform 1s; }
+
+.content-info-btn__video {
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFF;
+  color: #888;
+  text-decoration: none;
+  transition: transform 1s;
+  transform: scale(1); }
+  .content-info-btn__video:hover {
+    transform: scale(1.2);
+    transition: transform 1s; }
+  .content-info-btn__video:hover {
+    color: #F25822; }
+
+/*FOOTER*/
+.footer {
+  width: 1170px;
+  margin: 260px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 48px; }
+
+/*# sourceMappingURL=index.css.map */
